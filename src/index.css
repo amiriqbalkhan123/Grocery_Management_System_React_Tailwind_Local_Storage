@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #374151;
+  border-radius: 20px;
+}
+
+body {
+  @apply bg-gray-900 text-gray-200;
+}
+
+/* Small card styling for dark theme */
+.card {
+  @apply bg-gray-800 text-gray-200 rounded-xl shadow p-4;
+}
